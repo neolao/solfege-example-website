@@ -15,4 +15,4 @@ Installation
 Start the server
 ----------------
 
-   npm start
+    npm start
