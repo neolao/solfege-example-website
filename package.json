@@ -1,0 +1,24 @@
+{
+    "name"          : "solfegejs-example-website",
+    "description"   : "A simple website powered by SolfegeJS",
+    "version"       : "0.1.0",
+    "author"        : "neolao <contact@neolao.com>",
+    "repository"    : "https://github.com/neolao/solfege-example-website.git",
+    "engines"       : 
+    {
+        "node": ">= 0.11.11"
+    },
+    "dependencies"  : 
+    {
+        "solfegejs"              : "1.3.*",
+        "solfegejs-cli"          : "1.0.*",
+        "solfegejs-server"       : "1.4.*",
+        "solfegejs-server-router": "1.2.*",
+        "solfegejs-server-static": "0.1.*",
+        "solfegejs-swig"         : "1.2.*"
+    },
+    "scripts":
+    {
+       "start": "node --harmony console.js server:start"
+    }
+}

@@ -1,0 +1,10 @@
+body {
+    color: #333;
+}
+
+h1 {
+   text-align: center;
+   border: solid 1px #369;
+   background: #369;
+   color: #fff;
+}
